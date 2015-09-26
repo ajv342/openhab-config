@@ -1,0 +1,6 @@
+sitemap default label="Main Menu"
+{
+        Frame label="Christmas Lights" {
+              Switch item=Z_socket1 label="Christmas Tree" icon="switch"
+        }
+}
