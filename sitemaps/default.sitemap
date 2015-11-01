@@ -1,6 +1,8 @@
-sitemap default label="Main Menu"
+sitemap default label="Living Room"
 {
-        Frame label="Lights" {
-              Switch item=Z_socket1 label="Bedroom light" icon="switch"
-        }
+  Frame label="Lights" {
+    Switch item=Z_socket1 label="Desk Light" icon="switch"
+    Slider item=CHAIR_LIGHT label="Chair Light" icon="switch"
+  }
 }
+

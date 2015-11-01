@@ -1,2 +1,4 @@
-Switch Z_socket1 "Bedroom light" (Lights) {zwave="2:command=SWITCH_BINARY"}
+Switch Z_socket1 "Desk Light" (Lights) {zwave="2:command=SWITCH_BINARY"}
+
+Dimmer  CHAIR_LIGHT "Chair Light"  { zwave="4:command=SWITCH_MULTILEVEL" }
 
